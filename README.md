@@ -16,6 +16,15 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
+## Ajout des credentials Finary dans le fichiers credentials.json
+```json
+{
+    "email": "myemail@provider.tld",
+    "password": "mypassword"
+}
+```
+
+
 ## Connexion à Finary
 ```bash
 python -m finary_uapi signing [MFA_CODE]
@@ -59,4 +68,3 @@ python -m finary_uapi import stocks_csv .\data\finary_CTO.csv --edit="Trade Repu
 ```bash
 python -m finary_uapi holdings_accounts update "77fda958-0f7d-4e73-81c6-2b2e3316c911" "Trade Republic - Cash" xxx.xx
 ```# Trade_Republic_to_Finary
-# Trade_Republic_to_Finary

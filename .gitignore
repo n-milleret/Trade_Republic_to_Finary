@@ -1,5 +1,6 @@
-data/*.csv
-*.json
-*.txt
+*.csv
+jwt.json
+credentials.json
+localCookiesMozilla.txt
 __pycache__
 env
